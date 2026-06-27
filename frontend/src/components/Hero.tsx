@@ -70,7 +70,7 @@ export default function Hero() {
       setArchitecture(null);
       setAiSummary(null);
 
-      const res = await axios.post("http://13.233.113.56:8000/analyze", {
+      const res = await axios.post("https://repolens-backend-tpiv.onrender.com/analyze", {
         repo_url: input.trim(),
       });
 
