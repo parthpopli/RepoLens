@@ -17,7 +17,7 @@ export default function SearchBar({
         <input
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder="https://github.com/owner/repository"
+          placeholder="Paste any GitHub repo URL, or click Analyze to try RepoLens"
           className="flex-1 rounded-xl border border-gray-300 px-4 py-3 text-gray-800 outline-none transition focus:border-blue-500 focus:ring-4 focus:ring-blue-100"
         />
 
