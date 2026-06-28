@@ -1,0 +1,6 @@
+git remote add origin https://github.com/parthpopli/RepoLens
+git remote -v
+git add .
+git commit -m "Updated project"
+git branch -M main
+git push -u origin main
