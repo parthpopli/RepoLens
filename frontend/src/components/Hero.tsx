@@ -249,7 +249,7 @@ export default function Hero() {
 
                     <div>
                       <h4 className="font-semibold text-slate-950">
-                        Resume Summary
+                       Quick Summary
                       </h4>
                       <p>{aiSummary.resume_summary || "Not available."}</p>
                     </div>
